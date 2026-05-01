@@ -57,7 +57,7 @@ graph TD
     style L1 fill:#f96,stroke:#333
     style L2 fill:#6f9,stroke:#333
     style L3 fill:#96f,stroke:#333
-    style L4 fill:#6cf,stroke:#333
+    style L4 fill:#6cf,stroke:#333 ```
 
 ## ⚙️ Installation
 
