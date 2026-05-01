@@ -47,9 +47,6 @@ npx expo eas build
 
 This project was built as a hands-on learning experience to understand full-stack mobile development, including authentication, database integration, and state management.
 
-## 🙌 Acknowledgement
-
-This project is inspired by a full-stack React Native course and has been customized and extended with additional features and improvements.
 
 ## 👩‍💻 Author
 
