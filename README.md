@@ -20,7 +20,12 @@ A full-stack mobile application for browsing and managing real estate listings, 
 
 ## 📸 Screenshots
 
-(Add your app screenshots here)
+## 📸 Screenshots
+
+<p align="center">
+  <img src="assets/images/home.png" width="250"/>
+  <img src="assets/images/search.png" width="250"/>
+</p>
 
 ## ⚙️ Installation
 
