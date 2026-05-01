@@ -23,7 +23,7 @@ A full-stack mobile application for browsing and managing real estate listings, 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="assets/images/home.png" width="250"/>
+  <img src="https://github.com/Nikita-Saxena391/Kribb/blob/main/WhatsApp%20Image%202026-05-01%20at%208.19.12%20PM.jpeg" width="250"/>
   <img src="assets/images/search.png" width="250"/>
 </p>
 
