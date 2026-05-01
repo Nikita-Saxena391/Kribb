@@ -32,32 +32,49 @@ A full-stack mobile application for browsing and managing real estate listings, 
 
 How every piece of the application connects, from authentication to the UI.
 ```mermaid
-graph TD
+flowchart TB
+
+    %% Layer 1: Auth
     subgraph L1 [Layer 1: Auth Layer]
-        Clerk["Clerk Auth (Expo v3)"]
+        A[Clerk @clerk/expo v3]
+        A1[Sign In / Sign Up / OTP]
     end
 
+    %% Layer 2: Data
     subgraph L2 [Layer 2: Data Layer]
-        DB[(Supabase DB)]
-        Storage[Supabase Storage]
+        B[(Supabase DB - PostgreSQL + RLS)]
+        C[Supabase Storage - Property Images]
+        D[Two Clients - Clerk JWT]
     end
 
+    %% Layer 3: State
     subgraph L3 [Layer 3: State Layer]
-        Zustand[Zustand Stores]
+        E[filterStore - Zustand]
+        F[userStore - Zustand]
     end
 
+    %% Layer 4: UI
     subgraph L4 [Layer 4: UI Layer]
-        Screens[Expo Router Screens]
+        G[Home]
+        H[Search]
+        I[Detail]
+        J[Saved]
+        K[Profile]
+        L[Create - Admin Only]
     end
 
-    Clerk --> L2
-    L2 --> L3
-    L3 --> L4
-    
-    style L1 fill:#f96,stroke:#333
-    style L2 fill:#6f9,stroke:#333
-    style L3 fill:#96f,stroke:#333
-    style L4 fill:#6cf,stroke:#333 ```
+    %% Connections
+    A -- "JWT Token" --> D
+    D -- "Data" --> E
+    D -- "Data" --> F
+    E -- "State" --> G
+    F -- "State" --> L
+
+    %% Frameworks
+    M[Expo SDK 54] --- L4
+    N[NativeWind v4] --- L4
+    O[TypeScript] --- L4
+```
 
 ## ⚙️ Installation
 
