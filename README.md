@@ -26,6 +26,7 @@ A full-stack mobile application for browsing and managing real estate listings, 
  <img src="https://github.com/Nikita-Saxena391/Kribb/blob/main/WhatsApp%20Image%202026-05-01%20at%208.19.10%20PM%20(1).jpeg" width="250"/>
   <img src="https://github.com/Nikita-Saxena391/Kribb/blob/main/WhatsApp%20Image%202026-05-01%20at%208.19.11%20PM%20(1).jpeg" width="250"/>
   <img src="https://github.com/Nikita-Saxena391/Kribb/blob/main/WhatsApp%20Image%202026-05-01%20at%208.19.09%20PM%20(1).jpeg" width="250"/>
+   <img src="https://github.com/Nikita-Saxena391/Kribb/blob/main/house.jpeg" width="250"/>
 </p>
 
 ## 🏗️ App Architecture
