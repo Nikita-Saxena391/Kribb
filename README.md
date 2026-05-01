@@ -31,7 +31,7 @@ A full-stack mobile application for browsing and managing real estate listings, 
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/Kribb.git
+git clone https://github.com/Nikita-Saxena391/Kribb.git
 cd Kribb
 npm install
 npx expo start
